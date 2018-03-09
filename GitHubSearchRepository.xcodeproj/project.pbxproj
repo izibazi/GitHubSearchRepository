@@ -57,9 +57,33 @@
 		F690F4A420529B2800D3DA4E /* GitHubSearchRepository */ = {
 			isa = PBXGroup;
 			children = (
+				F690F4AE20529E0500D3DA4E /* Error */,
+				F690F4AD20529E0000D3DA4E /* Response */,
+				F690F4AC20529DF600D3DA4E /* Request */,
 				F690F4A520529B2800D3DA4E /* main.swift */,
 			);
 			path = GitHubSearchRepository;
+			sourceTree = "<group>";
+		};
+		F690F4AC20529DF600D3DA4E /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F690F4AD20529E0000D3DA4E /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F690F4AE20529E0500D3DA4E /* Error */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
